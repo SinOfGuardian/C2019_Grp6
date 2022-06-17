@@ -3,5 +3,7 @@
 
 Members:
 Valenzuela, Nathaniel R
+
 Lariosa, John Dominick
-Boco, Leo Mark
+
+Boco, Leo Marc
