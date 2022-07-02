@@ -6,29 +6,71 @@
     <title>@ViewData["Title"] - ArtGallery</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!--FontAwesome-->
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">ArtGallery</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand col-1" asp-area="" asp-page="/Index">ArtGallery</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                    <ul class="navbar-nav font-me-auto col-6">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a href="/NewFolder/praktisna" class="nav-link text-dark">Artifact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/NewFolder/praktisna" class="nav-link text-dark">Exhibit & Event</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropbtn nav-link disabled">
+                                Dropdown button
+                            </a>
+                            <ul class="dropdown-content">
+                                <li><a class="dropdown-item" href="#">Auction</a></li>
+                                <li><a class="dropdown-item" href="#">Merchandise</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul> 
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link disabled" asp-area="" asp-page="/NewFolder/praktisna">Discuss</a>
+
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropbtn nav-link disabled">more</a>
+                            <ul class="dropdown-content">
+                                <li><a href="/Privacy">Privacy</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Review</a></li>
+                            </ul>
                         </li>
                     </ul>
+                    <form class="d-flex col-sm-4">
+                            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                            <span class="input-group-text border-0" id="search-addon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                    </form>
+                    <div class="nav justify-content-end">
+                        <button type="button" class="btn btn-outline-dark me-2">Login</button>
+                        <div class="col">
+                            <button type="button" class="btn btn-warning">Sign-up</button>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
+        </nav>        
+</header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

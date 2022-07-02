@@ -36,3 +36,7 @@ C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGal
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGallery.pdb
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGallery.genruntimeconfig.cache
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGallery.csproj.CopyComplete
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\Marketplace\auction.cshtml.g.cs
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\Marketplace\merchandise.cshtml.g.cs
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\more\aboutUs.cshtml.g.cs
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\more\contactUs.cshtml.g.cs
