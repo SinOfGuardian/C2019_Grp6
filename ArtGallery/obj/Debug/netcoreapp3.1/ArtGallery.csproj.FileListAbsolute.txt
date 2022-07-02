@@ -23,7 +23,6 @@ C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGal
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGallery.TagHelpers.output.cache
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGallery.RazorCoreGenerate.cache
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -40,3 +39,9 @@ C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\Marketplace\merchandise.cshtml.g.cs
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\more\aboutUs.cshtml.g.cs
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\more\contactUs.cshtml.g.cs
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\discuss.cshtml.g.cs
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\Exhibit_event.cshtml.g.cs
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\User\Login.cshtml.g.cs
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\User\register.cshtml.g.cs
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\gallery.cshtml.g.cs
