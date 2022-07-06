@@ -6,6 +6,9 @@
     <title>@ViewData["Title"] - ArtGallery</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/searchbar.css" />
+
+
     <!--FontAwesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <!--FontAwesome-->
@@ -13,59 +16,64 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand col-1" asp-area="" asp-page="/Index">ArtGallery</a>
+                <a class="navbar-brand col-2" asp-area="" asp-page="/Index">ArtGallery</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="collapsibleNavbar">
-                    <ul class="navbar-nav font-me-auto col-6">
+                    <ul class="navbar-nav font-me-auto col-8">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a asp-area="" asp-page="/gallery" class="nav-link text-dark">Gallery</a>
+                            <a asp-area="" asp-page="/gallery" class="nav-link text-light">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a asp-area="" asp-page="/Exhibit_event" class="nav-link text-dark">Exhibit & Event</a>
+                            <a asp-area="" asp-page="/Exhibit_event" class="nav-link text-light">Exhibit & Event</a>
                         </li>
                         <li class="dropdown">
-                            <a class="dropbtn nav-link disabled">
-                                Dropdown button
+                            <a class="dropbtn nav-link text-light dropdown-toggle">
+                                Marketplace
                             </a>
-                            <ul class="dropdown-content">
-                                <li><a class="dropdown-item" asp-area="" asp-page="/Marketplace/auction">Auction</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-page="/Marketplace/merchandise">Merchandise</a></li>
-                            </ul> 
+                            <div class="dropdown-content">
+                                <a class="dropdown-item" asp-area="" asp-page="/Marketplace/auction">Auction</a>
+                                <a class="dropdown-item" asp-area="" asp-page="/Marketplace/merchandise">Merchandise</a>
+                            </div>
                         </li>
-                    
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/discuss">Discuss</a>
+                            <a class="nav-link text-light" asp-area="" asp-page="/discuss">Discuss</a>
 
                         </li>
                         <li class="dropdown">
-                            <a class="dropbtn nav-link disabled">more</a>
-                            <ul class="dropdown-content">
-                                <li><a asp-area="" asp-page="/Privacy">Privacy</a></li>
-                                <li><a asp-area="" asp-page="/more/aboutUs">About Us</a></li>
-                                <li><a asp-area="" asp-page="/more/contactUs">Contact Us</a></li>
-                                <li><a href="#">Review</a></li>
-                            </ul>
+                            <a class="dropbtn nav-link text-light dropdown-toggle">more</a>
+                            <div class="dropdown-content">
+                                <a asp-area="" asp-page="/Privacy">Privacy</a>
+                                <a asp-area="" asp-page="/more/contactUs">Contact Us</a>
+                                <a asp-area="" asp-page="/more/aboutUs">About Us</a>
+                                <a asp-area="" asp-page="#">Review</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-page="/UserList">Account List</a>
+
                         </li>
                     </ul>
-                    <form class="d-flex col-sm-4">
-                            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                            <span class="input-group-text border-0" id="search-addon">
-                                <i class="fas fa-search"></i>
-                            </span>
-                    </form>
-                    <div class="nav justify-content-end">
-                        <a type="button" class="btn btn-outline-dark me-2" asp-area="" asp-page="/User/Login">Login</a>
-                        <div class="col">
-                         <a type="button" class="btn btn-warning" asp-area="" asp-page="/User/register">Sign-up</a>
 
-                        </div>
+                    @*SeARCH OR OTHER ICON*@
+                    <div class="searchBox nav-item">
+
+                        <input class="searchInput" type="text" name="" placeholder="Search">        
+                            <i class="material-icons">
+                                search
+                            </i>
+                    </div>
+                    <div class="nav justify-content-end">
+
+                        <a type="button" class="btn btn-outline-light me-2" asp-area="" asp-page="/Account/Login">Login</a>
+
                     </div>
                 </div>
             </div>

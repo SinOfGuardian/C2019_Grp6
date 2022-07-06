@@ -1,0 +1,40 @@
+﻿@page
+@model ArtGallery.Pages.UserListModel
+@{
+}
+<br />
+<h2>List of Account</h2>
+@*<a class='btn btn-primary btn-sm' href='/UserList/Create'>New User</a>*@
+<a class="btn btn-primary btn-sm" href="/UserList/Create">New User</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var client in Model.listClients)
+    {
+        <tr>
+            <td>@client.Id</td>
+            <td>@client.Username</td>
+            <td>@client.Email</td>
+            <td>@client.Password</td>
+            @*<td>IDIDIIDIDID</td>
+        <td>NAMEMANNANAN</td>
+        <td>EMALALLALL</td>
+        <td>d</td>*@
+            
+            <td>
+                <a class="btn btn-primary btn-sm" href="/UserList/Edit?id=@client.Id">Edit</a>
+                <a class="btn btn-primary btn-sm" href="/UserList/Delete?id=@client.Id">Delete</a>
+            </td>
+        </tr>
+    }
+
+    </tbody>
+</table>

@@ -9,8 +9,19 @@ namespace ArtGallery.Pages.User
 {
     public class LoginModel : PageModel
     {
+        public List<UserInfo> listUser = new List<UserInfo>();
         public void OnGet()
         {
+
         }
+    }
+
+    public class UserInfo
+    {
+        public int id;
+        public string Username;
+        public string Email;
+        public string Password;
+
     }
 }

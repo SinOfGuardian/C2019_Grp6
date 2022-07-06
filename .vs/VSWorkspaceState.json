@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ArtGallery"
+    "\\ArtGallery",
+    "\\ArtGallery\\Pages",
+    "\\ArtGallery\\Properties",
+    "\\ArtGallery\\wwwroot"
   ],
+  "SelectedNode": "\\ArtGallery.sln",
   "PreviewInSolutionExplorer": false
 }
