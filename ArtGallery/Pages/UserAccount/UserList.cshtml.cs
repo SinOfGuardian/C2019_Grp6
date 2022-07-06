@@ -17,7 +17,7 @@ namespace ArtGallery.Pages
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    string sql = "SELECT * FROM Table";
+                    string sql = "SELECT * FROM Account";
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
@@ -47,7 +47,7 @@ namespace ArtGallery.Pages
     public class ClientInfo
     {
         public int Id;
-        public string Username;
+        public string Username; 
         public string Email;
         public string Password;
 

@@ -1,0 +1,5 @@
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp1.0\ArtGallery.csproj.AssemblyReference.cache
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp1.0\ArtGallery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp1.0\ArtGallery.AssemblyInfoInputs.cache
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp1.0\ArtGallery.AssemblyInfo.cs
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp1.0\ArtGallery.csproj.CoreCompileInputs.cache

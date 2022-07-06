@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="~/css/searchbar.css" />
 
 
+
     <!--FontAwesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <!--FontAwesome-->
@@ -57,22 +58,20 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/UserList">Account List</a>
-
+                            <a class="nav-link text-light" asp-area="" asp-page="/UserAccount/UserList">Account List</a>
                         </li>
+
                     </ul>
 
                     @*SeARCH OR OTHER ICON*@
-                    <div class="searchBox nav-item">
-
-                        <input class="searchInput" type="text" name="" placeholder="Search">        
-                            <i class="material-icons">
-                                search
-                            </i>
-                    </div>
+                <div class="col">
+                    <form role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
                     <div class="nav justify-content-end">
-
-                        <a type="button" class="btn btn-outline-light me-2" asp-area="" asp-page="/Account/Login">Login</a>
+                        
+                        <a type="button" class="btn btn-outline-light me-2" asp-area="" asp-page="/UserAccount/Login">Login</a>
 
                     </div>
                 </div>
