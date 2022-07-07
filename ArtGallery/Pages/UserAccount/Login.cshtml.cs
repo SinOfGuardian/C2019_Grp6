@@ -34,7 +34,7 @@ namespace ArtGallery.Pages.User
             //SAVE
             try
             {
-                string connectionString = "Data Source=.\\sqlexpress;Initial Catalog=ArtGalleryDB;Integrated Security=True";
+                string connectionString = "Data Source =.\\sqlexpress; Initial Catalog = ArtGallery2; Integrated Security = True; Pooling = False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
@@ -60,6 +60,7 @@ namespace ArtGallery.Pages.User
             client.Username = ""; client.Email = ""; client.Password = "";
             successMessage = "New Client Added Correctly";
 
+            Response.Redirect("/UserAccount/Login");
 
         }
     }

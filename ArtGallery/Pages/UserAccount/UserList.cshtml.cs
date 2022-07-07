@@ -13,7 +13,7 @@ namespace ArtGallery.Pages
         {
             try
             {
-                string connectionString = "Data Source=.\\sqlexpress;Initial Catalog=ArtGalleryDB;Integrated Security=True";
+                string connectionString = "Data Source=.\\sqlexpress;Initial Catalog=ArtGallery2;Integrated Security=True;Pooling=False";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();

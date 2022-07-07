@@ -17,8 +17,6 @@ C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGal
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGallery.RazorAssemblyInfo.cache
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGallery.RazorAssemblyInfo.cs
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\staticwebassets\ArtGallery.StaticWebAssets.Manifest.cache
-C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\staticwebassets\ArtGallery.StaticWebAssets.xml
-C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\scopedcss\bundle\ArtGallery.styles.css
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGallery.TagHelpers.input.cache
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGallery.TagHelpers.output.cache
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\ArtGallery.RazorCoreGenerate.cache
@@ -54,3 +52,4 @@ C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\UserAccount\UserList.cshtml.g.cs
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\UserAccount\Edit.cshtml.g.cs
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\UserAccount\Login.cshtml.g.cs
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\bin\Debug\netcoreapp3.1\ArtGallery.StaticWebAssets.xml

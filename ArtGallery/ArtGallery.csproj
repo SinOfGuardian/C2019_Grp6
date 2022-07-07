@@ -4,12 +4,29 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Pages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\g1.jpg" />
+    <None Include="wwwroot\images\g14.jpg" />
+    <None Include="wwwroot\images\g15.jpg" />
+    <None Include="wwwroot\images\g2.jpg" />
+    <None Include="wwwroot\images\g5.jpg" />
+    <None Include="wwwroot\images\g6.jpg" />
+    <None Include="wwwroot\images\g7.jpg" />
+    <None Include="wwwroot\images\g8.jpg" />
+    <None Include="wwwroot\images\g9.jpg" />
+    <None Include="wwwroot\images\vitthal.jpg" />
   </ItemGroup>
 
 </Project>
