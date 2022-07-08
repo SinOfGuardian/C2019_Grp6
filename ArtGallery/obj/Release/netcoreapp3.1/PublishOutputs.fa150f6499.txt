@@ -6,6 +6,16 @@ C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubT
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\searchbar.css
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\css\site.css
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\favicon.ico
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\g1.jpg
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\g14.jpg
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\g15.jpg
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\g2.jpg
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\g5.jpg
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\g6.jpg
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\g7.jpg
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\g8.jpg
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\g9.jpg
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\images\vitthal.jpg
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\login.js
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\js\site.js
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css

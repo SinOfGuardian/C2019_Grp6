@@ -52,4 +52,5 @@ C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\UserAccount\UserList.cshtml.g.cs
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\UserAccount\Edit.cshtml.g.cs
 C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\Razor\Pages\UserAccount\Login.cshtml.g.cs
-C:\Users\natha\source\repos\ArtGallery\ArtGallery\bin\Debug\netcoreapp3.1\ArtGallery.StaticWebAssets.xml
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\staticwebassets\ArtGallery.StaticWebAssets.xml
+C:\Users\natha\source\repos\ArtGallery\ArtGallery\obj\Debug\netcoreapp3.1\scopedcss\bundle\ArtGallery.styles.css
